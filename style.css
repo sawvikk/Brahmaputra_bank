@@ -1,0 +1,25 @@
+body{
+    padding: 100px;
+}
+#second .col-md-4 .d{
+    margin:50px;
+    padding:20px 40px 20px 40px ;
+    /* box-shadow: */
+    color:white;
+    border-radius: 15px;
+}
+#dw .s{
+    margin:50px;
+    padding:20px 40px 20px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+/* 
+var depositValue = parseFloat(document.getElementById("depositvalue").value);
+<!-- var withdrawValue = parseFloat(document.getElementById("withdrawvalue").value); -->
+var currentDeposit= parseFloat(document.getElementById('dsh').value);
+document.getElementById('dsh').innerText = depositValue+currentDeposit;
+var currentBalance= parseFloat(document.getElementById('bsh').value);
+var currentWithdraw = parseFloat(document.getElementById('wsh').value);
+<!-- document.getElementById('wsh').innerText = withdrawValue+currentWithdraw; -->
+<!-- document.getElementById('bsh').innerText = depositValue + currentBalance+ withdrawValue; --> */
